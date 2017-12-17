@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0277BD</item>
+        <item name="colorPrimaryDark">#01579B</item>
+        <item name="colorAccent">#4FC3F7</item>
+    </style>
+    <style name="MyRunButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#008800</item>
+        <item name="colorButtonNormal">#00CC00</item>
+    </style>
+    <style name="MyStopButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#880000</item>
+        <item name="colorButtonNormal">#CC0000</item>
+    </style>
+</resources>

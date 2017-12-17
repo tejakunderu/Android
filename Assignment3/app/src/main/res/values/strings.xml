@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TejaKunderu</string>
+    <string name="activity_type">Enter activity type</string>
+    <string name="record_button">Record</string>
+</resources>

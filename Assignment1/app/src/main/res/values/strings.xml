@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TejaKunderu</string>
+    <string name="welcome_text">ENTER PATIENT INFORMATION</string>
+    <string name="patient_name_text">Patient Name</string>
+    <string name="patient_id_text">Patient ID</string>
+    <string name="patient_age_text">Age</string>
+    <string name="patient_gender_text">Gender</string>
+    <string name="patient_name_hint">Enter name</string>
+    <string name="patient_id_hint">Enter ID</string>
+    <string name="patient_age_hint">Enter Age</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="next_page">NEXT</string>
+    <string name="error_message">Please enter all details properly!</string>
+
+    <string name="start_button_text">RUN</string>
+    <string name="stop_button_text">STOP</string>
+
+</resources>

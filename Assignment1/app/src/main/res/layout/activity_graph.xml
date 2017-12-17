@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_graph"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#000000"
+    android:padding="8dp"
+tools:context="com.example.tejakunderu.GraphActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_weight="0">
+
+    <Button android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:background="#06f937"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:hint="@string/start_button_text"
+        android:onClick="runGraph" />
+
+    <Button android:id="@+id/stop_button"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="24dp"
+        android:background="#f3031b"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:hint="@string/stop_button_text"
+        android:onClick="stopGraph" />
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/graph_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1" >
+
+</RelativeLayout>
+
+</LinearLayout>
+
