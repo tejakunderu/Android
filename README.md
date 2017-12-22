@@ -1,2 +1,2 @@
-# MC_Assignments
-Activity Detection and Classification 
+
+Activity Detection and Classification on Mobile Devices
